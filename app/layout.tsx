@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./globals.css"; // <--- THIS LINE IS CRITICAL
 
 export const metadata: Metadata = {
   title: "Bilal Sherwani | Full Stack CMS Expert",
-  description: "10+ years experience in Shopify Plus, Production Management, and Sales Leadership.",
+  description: "10+ Years of E-commerce Excellence",
 };
 
 export default function RootLayout({
@@ -12,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body>{children}</body>
+    <html lang="en">
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
