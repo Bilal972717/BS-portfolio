@@ -2,11 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background: #0a0a0a;
-  color: white;
-}
-
+/* Add this temporary test to see if CSS is even working */
 body {
-  background-color: #0a0a0a;
+  background-color: #0a0a0a !important;
+  color: white !important;
 }
