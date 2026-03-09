@@ -271,8 +271,8 @@ export default function BilalPortfolio() {
                 <a href="tel:+923097946916" className="flex items-center gap-4 text-xl font-bold text-gray-400 hover:text-white transition-colors">
                   <Phone className="text-blue-500" /> +92 309 7946916
                 </a>
-                <a href="https://github.com/haseebafzal800" className="flex items-center gap-4 text-xl font-bold text-gray-400 hover:text-white transition-colors">
-                  <Github className="text-blue-500" /> github.com/haseebafzal800
+                <a href="https://github.com/Bilal972717" className="flex items-center gap-4 text-xl font-bold text-gray-400 hover:text-white transition-colors">
+                  <Github className="text-blue-500" /> github.com/Bilal972717
                 </a>
               </div>
               <div className="mt-12 pt-8 border-t border-white/10">
